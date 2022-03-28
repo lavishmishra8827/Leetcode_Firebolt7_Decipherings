@@ -1,4 +1,5 @@
 import math
+from functools import lru_cache
 class Solution:
     def maxValueOfCoins(self, piles, k):
         piles_length=len(piles)
